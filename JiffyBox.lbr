@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="LID_UB1_HB6011">
+<description>PCB replaces enclosure lid for Jaycar Jiffy Box UB1 (HB6011)</description>
+<wire x1="0" y1="0" x2="0" y2="90" width="0.127" layer="20"/>
+<wire x1="0" y1="90" x2="152" y2="90" width="0.127" layer="20"/>
+<wire x1="152" y1="90" x2="152" y2="0" width="0.127" layer="20"/>
+<wire x1="152" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
+<hole x="5.5" y="5.5" drill="3"/>
+<hole x="5.5" y="84.5" drill="3"/>
+<hole x="146.5" y="84.5" drill="3"/>
+<hole x="146.5" y="5.5" drill="3"/>
+<dimension x1="152" y1="0" x2="0" y2="0" x3="76" y3="-2" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="0" x2="0" y2="90" x3="-2" y3="45" textsize="1.27" layer="47"/>
+<dimension x1="4.62814375" y1="6.7206" x2="6.37185625" y2="4.2794" x3="9" y3="8" textsize="1.27" layer="47" dtype="diameter"/>
+<dimension x1="3" y1="5.5" x2="3" y2="0" x3="-4" y3="2.75" textsize="1.27" layer="47" dtype="diameter"/>
+<dimension x1="5.5" y1="3" x2="0" y2="3" x3="2.75" y3="-5" textsize="1.27" layer="47" dtype="diameter"/>
+</package>
+<package name="LID_UB5_HB6015">
+<description>PCB replaces enclosure lid for Jaycar Jiffy Box UB5 (HB6015)</description>
+<hole x="5" y="5" drill="3"/>
+<hole x="5" y="45" drill="3"/>
+<hole x="74" y="45" drill="3"/>
+<hole x="74" y="5" drill="3"/>
+<wire x1="0" y1="0" x2="0" y2="50" width="0.127" layer="20"/>
+<wire x1="0" y1="50" x2="79" y2="50" width="0.127" layer="20"/>
+<wire x1="79" y1="50" x2="79" y2="0" width="0.127" layer="20"/>
+<wire x1="79" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
+<dimension x1="0" y1="0" x2="0" y2="50" x3="-2" y3="25" textsize="1.27" layer="47"/>
+<dimension x1="79" y1="0" x2="0" y2="0" x3="39.5" y3="-2" textsize="1.27" layer="47"/>
+<dimension x1="3.939340625" y1="6.060659375" x2="6.060659375" y2="3.939340625" x3="8" y3="8" textsize="1.27" layer="47" dtype="diameter"/>
+<dimension x1="2" y1="5" x2="2" y2="0" x3="-5" y3="2.5" textsize="1.27" layer="47" dtype="diameter"/>
+<dimension x1="5" y1="2" x2="0" y2="2" x3="2.5" y3="-6" textsize="1.27" layer="47" dtype="diameter"/>
+</package>
+<package name="INTERNAL_UB1_HB6011">
+<description>Internal PCB for Jaycar Jiffy Box UB1 (HB6011)</description>
+<wire x1="0" y1="10" x2="0" y2="77" width="0.127" layer="20"/>
+<wire x1="10" y1="87" x2="137" y2="87" width="0.127" layer="20"/>
+<wire x1="147" y1="77" x2="147" y2="10" width="0.127" layer="20"/>
+<wire x1="137" y1="0" x2="10" y2="0" width="0.127" layer="20"/>
+<wire x1="5" y1="10" x2="10" y2="5" width="0.127" layer="20" curve="-90"/>
+<wire x1="10" y1="82" x2="5" y2="77" width="0.127" layer="20" curve="-90"/>
+<wire x1="137" y1="5" x2="142" y2="10" width="0.127" layer="20" curve="-90"/>
+<wire x1="142" y1="77" x2="137" y2="82" width="0.127" layer="20" curve="-90"/>
+<wire x1="137" y1="82" x2="137" y2="87" width="0.127" layer="20"/>
+<wire x1="142" y1="77" x2="147" y2="77" width="0.127" layer="20"/>
+<wire x1="147" y1="10" x2="142" y2="10" width="0.127" layer="20"/>
+<wire x1="137" y1="5" x2="137" y2="0" width="0.127" layer="20"/>
+<wire x1="10" y1="5" x2="10" y2="0" width="0.127" layer="20"/>
+<wire x1="5" y1="10" x2="0" y2="10" width="0.127" layer="20"/>
+<wire x1="10" y1="87" x2="10" y2="82" width="0.127" layer="20"/>
+<wire x1="5" y1="77" x2="0" y2="77" width="0.127" layer="20"/>
+<dimension x1="0" y1="0" x2="0" y2="87" x3="-2" y3="43.5" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="0" x2="147" y2="0" x3="73.5" y3="-2" textsize="1.27" layer="47"/>
+<dimension x1="5" y1="5" x2="8.535534375" y2="8.535534375" x3="6.76776875" y3="6.76776875" textsize="1.27" layer="47" dtype="radius"/>
+<dimension x1="0" y1="0" x2="0" y2="10" x3="-5" y3="5" textsize="1.27" layer="47" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="10" y2="0" x3="5" y3="-6" textsize="1.27" layer="47" dtype="horizontal"/>
+<rectangle x1="40.5" y1="86" x2="46.5" y2="87" layer="21"/>
+<rectangle x1="70.5" y1="86" x2="76.5" y2="87" layer="21"/>
+<rectangle x1="100.5" y1="86" x2="106.5" y2="87" layer="21"/>
+<rectangle x1="40.5" y1="0" x2="46.5" y2="1" layer="21"/>
+<rectangle x1="70.5" y1="0" x2="76.5" y2="1" layer="21"/>
+<rectangle x1="100.5" y1="0" x2="106.5" y2="1" layer="21"/>
+</package>
+<package name="INTERNAL_UB5_HB6015">
+<description>Internal PCB for Jaycar Jiffy Box UB5 (HB6015)</description>
+<wire x1="0" y1="10" x2="0" y2="37" width="0.127" layer="20"/>
+<wire x1="10" y1="47" x2="68" y2="47" width="0.127" layer="20"/>
+<wire x1="78" y1="37" x2="78" y2="10" width="0.127" layer="20"/>
+<wire x1="68" y1="0" x2="10" y2="0" width="0.127" layer="20"/>
+<wire x1="5" y1="10" x2="10" y2="5" width="0.127" layer="20" curve="-90"/>
+<wire x1="10" y1="42" x2="5" y2="37" width="0.127" layer="20" curve="-90"/>
+<wire x1="68" y1="5" x2="73" y2="10" width="0.127" layer="20" curve="-90"/>
+<wire x1="73" y1="37" x2="68" y2="42" width="0.127" layer="20" curve="-90"/>
+<wire x1="68" y1="42" x2="68" y2="47" width="0.127" layer="20"/>
+<wire x1="73" y1="37" x2="78" y2="37" width="0.127" layer="20"/>
+<wire x1="78" y1="10" x2="73" y2="10" width="0.127" layer="20"/>
+<wire x1="68" y1="5" x2="68" y2="0" width="0.127" layer="20"/>
+<wire x1="10" y1="5" x2="10" y2="0" width="0.127" layer="20"/>
+<wire x1="5" y1="10" x2="0" y2="10" width="0.127" layer="20"/>
+<wire x1="10" y1="47" x2="10" y2="42" width="0.127" layer="20"/>
+<wire x1="5" y1="37" x2="0" y2="37" width="0.127" layer="20"/>
+<dimension x1="0" y1="0" x2="78" y2="0" x3="39" y3="-2" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="0" x2="0" y2="47" x3="-2" y3="23.5" textsize="1.27" layer="47"/>
+<dimension x1="5" y1="5" x2="8.535534375" y2="8.535534375" x3="6.76776875" y3="6.76776875" textsize="1.27" layer="47" dtype="radius"/>
+<dimension x1="0" y1="0" x2="0" y2="10" x3="-5" y3="5" textsize="1.27" layer="47" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="10" y2="0" x3="5" y3="-5" textsize="1.27" layer="47" dtype="horizontal"/>
+<rectangle x1="26.5" y1="46" x2="31.5" y2="47" layer="21"/>
+<rectangle x1="47.5" y1="46" x2="52.5" y2="47" layer="21"/>
+<rectangle x1="26.5" y1="0" x2="31.5" y2="1" layer="21"/>
+<rectangle x1="47.5" y1="0" x2="52.5" y2="1" layer="21"/>
+</package>
+<package name="LID_UB3_HB6013">
+<description>PCB replaces enclosure lid for Jaycar Jiffy Box UB3 (HB6013)</description>
+<wire x1="0" y1="0" x2="0" y2="63" width="0.127" layer="20"/>
+<wire x1="0" y1="63" x2="125.5" y2="63" width="0.127" layer="20"/>
+<wire x1="125.5" y1="63" x2="125.5" y2="0" width="0.127" layer="20"/>
+<wire x1="125.5" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
+<hole x="6" y="6.5" drill="3"/>
+<hole x="6" y="56.5" drill="3"/>
+<hole x="119.5" y="56.5" drill="3"/>
+<hole x="119.5" y="6.5" drill="3"/>
+<dimension x1="125.5" y1="0" x2="0" y2="0" x3="62.75" y3="-2" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="0" x2="0" y2="63" x3="-2" y3="31.5" textsize="1.27" layer="47"/>
+<dimension x1="5.12814375" y1="7.7206" x2="6.87185625" y2="5.2794" x3="9.02703125" y3="8.662159375" textsize="1.27" layer="47" dtype="diameter"/>
+<dimension x1="3" y1="6.5" x2="3" y2="0" x3="-4" y3="3.25" textsize="1.27" layer="47" dtype="diameter"/>
+<dimension x1="6" y1="3" x2="0" y2="3" x3="3" y3="-5" textsize="1.27" layer="47" dtype="diameter"/>
+</package>
+<package name="INTERNAL_UB3_HB6013">
+<description>Internal PCB for Jaycar Jiffy Box UB3 (HB6013)</description>
+<wire x1="0" y1="10" x2="0" y2="50.5" width="0.127" layer="20"/>
+<wire x1="10" y1="60.5" x2="114" y2="60.5" width="0.127" layer="20"/>
+<wire x1="124" y1="50.5" x2="124" y2="10" width="0.127" layer="20"/>
+<wire x1="114" y1="0" x2="10" y2="0" width="0.127" layer="20"/>
+<wire x1="5" y1="10" x2="10" y2="5" width="0.127" layer="20" curve="-90"/>
+<wire x1="10" y1="55.5" x2="5" y2="50.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="114" y1="5" x2="119" y2="10" width="0.127" layer="20" curve="-90"/>
+<wire x1="119" y1="50.5" x2="114" y2="55.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="114" y1="55.5" x2="114" y2="60.5" width="0.127" layer="20"/>
+<wire x1="119" y1="50.5" x2="124" y2="50.5" width="0.127" layer="20"/>
+<wire x1="124" y1="10" x2="119" y2="10" width="0.127" layer="20"/>
+<wire x1="114" y1="5" x2="114" y2="0" width="0.127" layer="20"/>
+<wire x1="10" y1="5" x2="10" y2="0" width="0.127" layer="20"/>
+<wire x1="5" y1="10" x2="0" y2="10" width="0.127" layer="20"/>
+<wire x1="10" y1="60.5" x2="10" y2="55.5" width="0.127" layer="20"/>
+<wire x1="5" y1="50.5" x2="0" y2="50.5" width="0.127" layer="20"/>
+<dimension x1="0" y1="0" x2="124" y2="0" x3="62" y3="-2" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="0" x2="0" y2="60.5" x3="-2" y3="30.25" textsize="1.27" layer="47"/>
+<dimension x1="5" y1="5" x2="8.535534375" y2="8.535534375" x3="6.76776875" y3="6.76776875" textsize="1.27" layer="47" dtype="radius"/>
+<dimension x1="0" y1="0" x2="0" y2="10" x3="-5" y3="5" textsize="1.27" layer="47" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="10" y2="0" x3="5" y3="-5" textsize="1.27" layer="47" dtype="horizontal"/>
+<rectangle x1="32.75" y1="59.5" x2="37.75" y2="60.5" layer="21"/>
+<rectangle x1="59.75" y1="59.5" x2="64.75" y2="60.5" layer="21"/>
+<rectangle x1="86.75" y1="59.5" x2="91.75" y2="60.5" layer="21"/>
+<rectangle x1="86.75" y1="0" x2="91.75" y2="1" layer="21" rot="R180"/>
+<rectangle x1="59.75" y1="0" x2="64.75" y2="1" layer="21" rot="R180"/>
+<rectangle x1="32.75" y1="0" x2="37.75" y2="1" layer="21" rot="R180"/>
+</package>
+<package name="LID_UB2_HB6012">
+<description>PCB replaces enclosure lid for Jaycar Jiffy Box UB2 (HB6012)</description>
+<wire x1="0" y1="0" x2="0" y2="106" width="0.127" layer="20"/>
+<wire x1="0" y1="106" x2="190" y2="106" width="0.127" layer="20"/>
+<wire x1="190" y1="106" x2="190" y2="0" width="0.127" layer="20"/>
+<wire x1="190" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
+<hole x="6" y="6" drill="3"/>
+<hole x="6" y="100" drill="3"/>
+<hole x="184" y="100" drill="3"/>
+<hole x="184" y="6" drill="3"/>
+<dimension x1="190" y1="0" x2="0" y2="0" x3="95" y3="-2" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="0" x2="0" y2="106" x3="-2" y3="53" textsize="1.27" layer="47"/>
+<dimension x1="5.12814375" y1="7.2206" x2="6.87185625" y2="4.7794" x3="8.932434375" y3="8.09459375" textsize="1.27" layer="47" dtype="diameter"/>
+<dimension x1="3" y1="6" x2="3" y2="0" x3="-4" y3="3" textsize="1.27" layer="47" dtype="diameter"/>
+<dimension x1="6" y1="3" x2="0" y2="3" x3="3" y3="-5" textsize="1.27" layer="47" dtype="diameter"/>
+</package>
+<package name="INTERNAL_UB2_HB6012">
+<description>Internal PCB for Jaycar Jiffy Box UB2 (HB6012)</description>
+<wire x1="0" y1="10" x2="0" y2="93" width="0.127" layer="20"/>
+<wire x1="10" y1="103" x2="177" y2="103" width="0.127" layer="20"/>
+<wire x1="187" y1="93" x2="187" y2="10" width="0.127" layer="20"/>
+<wire x1="177" y1="0" x2="10" y2="0" width="0.127" layer="20"/>
+<wire x1="5" y1="10" x2="10" y2="5" width="0.127" layer="20" curve="-90"/>
+<wire x1="10" y1="98" x2="5" y2="93" width="0.127" layer="20" curve="-90"/>
+<wire x1="177" y1="5" x2="182" y2="10" width="0.127" layer="20" curve="-90"/>
+<wire x1="182" y1="93" x2="177" y2="98" width="0.127" layer="20" curve="-90"/>
+<wire x1="177" y1="98" x2="177" y2="103" width="0.127" layer="20"/>
+<wire x1="182" y1="93" x2="187" y2="93" width="0.127" layer="20"/>
+<wire x1="187" y1="10" x2="182" y2="10" width="0.127" layer="20"/>
+<wire x1="177" y1="5" x2="177" y2="0" width="0.127" layer="20"/>
+<wire x1="10" y1="5" x2="10" y2="0" width="0.127" layer="20"/>
+<wire x1="5" y1="10" x2="0" y2="10" width="0.127" layer="20"/>
+<wire x1="10" y1="103" x2="10" y2="98" width="0.127" layer="20"/>
+<wire x1="5" y1="93" x2="0" y2="93" width="0.127" layer="20"/>
+<dimension x1="0" y1="0" x2="187" y2="0" x3="93.5" y3="-2" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="0" x2="0" y2="103" x3="-2" y3="51.5" textsize="1.27" layer="47"/>
+<dimension x1="5" y1="5" x2="8.535534375" y2="8.535534375" x3="6.76776875" y3="6.76776875" textsize="1.27" layer="47" dtype="radius"/>
+<dimension x1="0" y1="0" x2="0" y2="10" x3="-5" y3="5" textsize="1.27" layer="47" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="10" y2="0" x3="5" y3="-5" textsize="1.27" layer="47" dtype="horizontal"/>
+<rectangle x1="41.5" y1="102" x2="46.5" y2="103" layer="21"/>
+<rectangle x1="91" y1="102" x2="96" y2="103" layer="21"/>
+<rectangle x1="140.5" y1="102" x2="145.5" y2="103" layer="21"/>
+<rectangle x1="150.5" y1="0" x2="155.5" y2="1" layer="21" rot="R180"/>
+<rectangle x1="101" y1="0" x2="106" y2="1" layer="21" rot="R180"/>
+<rectangle x1="51.5" y1="0" x2="56.5" y2="1" layer="21" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="UB1">
+<text x="1.27" y="-1.27" size="1.27" layer="95" align="center-left">www.jaycar.com.au</text>
+<wire x1="0" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="1.27" layer="95" align="center-left">PCB to suit Jiffy Box UB1</text>
+</symbol>
+<symbol name="UB2">
+<text x="1.27" y="-1.27" size="1.27" layer="95" align="center-left">www.jaycar.com.au</text>
+<wire x1="0" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="1.27" layer="95" align="center-left">PCB to suit Jiffy Box UB2</text>
+</symbol>
+<symbol name="UB3">
+<text x="1.27" y="-1.27" size="1.27" layer="95" align="center-left">www.jaycar.com.au</text>
+<wire x1="0" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="1.27" layer="95" align="center-left">PCB to suit Jiffy Box UB3</text>
+</symbol>
+<symbol name="UB5">
+<text x="1.27" y="-1.27" size="1.27" layer="95" align="center-left">www.jaycar.com.au</text>
+<wire x1="0" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="1.27" layer="95" align="center-left">PCB to suit Jiffy Box UB5</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UB3">
+<description>Jiffy Boxes - ABS enclosures availiable from Jaycar Electronics - Designed by LEVY 2021</description>
+<gates>
+<gate name="G$1" symbol="UB3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_INTERNAL" package="INTERNAL_UB3_HB6013">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_LID" package="LID_UB3_HB6013">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UB1">
+<description>Jiffy Boxes - ABS enclosures availiable from Jaycar Electronics - Designed by LEVY 2021</description>
+<gates>
+<gate name="G$1" symbol="UB1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_INTERNAL" package="INTERNAL_UB1_HB6011">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_LID" package="LID_UB1_HB6011">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UB2">
+<description>Jiffy Boxes - ABS enclosures availiable from Jaycar Electronics - Designed by LEVY 2021</description>
+<gates>
+<gate name="G$1" symbol="UB2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_INTERNAL" package="INTERNAL_UB2_HB6012">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_LID" package="LID_UB2_HB6012">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UB5">
+<description>Jiffy Boxes - ABS enclosures availiable from Jaycar Electronics - Designed by LEVY 2021</description>
+<gates>
+<gate name="G$1" symbol="UB5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_INTERNAL" package="INTERNAL_UB5_HB6015">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_LID" package="LID_UB5_HB6015">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
